@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# webdriver_manager driver cache (used when WDM_LOCAL=true)
+.wdm/
+
+# Scraped data and logs
+data/
+logs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/

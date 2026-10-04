@@ -1,0 +1,11 @@
+selenium>=4.18
+
+# Supplies the chromedriver binary that matches the installed Chrome.
+webdriver-manager>=4.0
+
+# pandas 3.x wheels are blocked by Windows Application Control on some
+# machines (DLL load failure). 2.x is stable and fully supported here.
+pandas>=2.0,<3.0
+
+# Development / tests
+pytest>=8.0
